@@ -122,6 +122,15 @@ input, select, textarea {
 			border: 0;
 		}
 
+		a.image.featured {
+			transition: transform .2s; /* Animation */
+			margin: 0 auto;
+		  }
+		  
+		  a.image.featured:hover {
+			transform: scale(1.04); /* (104% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		  }			
+
 	b, strong {
 		font-weight: 600;
 		color: #3e3e3e;
@@ -220,6 +229,7 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+
 
 /* Container */
 
@@ -1620,6 +1630,7 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+
 /* Image */
 
 	.image {
@@ -1819,7 +1830,7 @@ input, select, textarea {
 					width: 48px;
 				}
 
-				ul.social li a.fa-twitter {
+				ul.social li a.fa-free-code-camp {
 					background-color: #2DAAE4;
 				}
 
@@ -1827,7 +1838,7 @@ input, select, textarea {
 					background-color: #3C5A98;
 				}
 
-				ul.social li a.fa-dribbble {
+				ul.social li a.fa-codepen {
 					background-color: #C4376B;
 				}
 
